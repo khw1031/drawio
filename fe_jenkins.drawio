@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T01:10:26.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mRnEOVHfxGh-6PZt8oIK" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T01:10:47.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wz1k4W1F0gSr0DMJ2kte" version="21.3.0" type="github">
   <diagram name="페이지-1" id="rulnj-KbUzy-cfcLN-6n">
     <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
             <mxPoint x="420" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-4" value="CI 수동 트리거&lt;br&gt;path:&amp;nbsp;&lt;br&gt;- apps/cms/*&lt;br&gt;- app/srm/*&lt;br&gt;- packages/*&lt;br&gt;&lt;br&gt;CI 완료 후 수동 배포(Jenkins &amp;gt; Web Server)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-4" value="CI 수동 트리거&lt;br&gt;path:&amp;nbsp;&lt;br&gt;- apps/cms/*&lt;br&gt;- app/srm/*&lt;br&gt;- packages/*" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="540" y="60" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="VZpOS-5xHHwN31Gzm8ZU-6" value="Jenkins Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
