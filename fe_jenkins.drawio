@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T01:38:38.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SPrUEfw8u9eR1koTfkeV" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T01:10:26.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mRnEOVHfxGh-6PZt8oIK" version="21.3.0" type="github">
   <diagram name="페이지-1" id="rulnj-KbUzy-cfcLN-6n">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,12 +31,12 @@
             <mxPoint x="420" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-9" value="Build 환경&lt;br&gt;- Linux (amd64) &lt;br&gt;- NodeJS 18.14.0&lt;br&gt;&lt;br&gt;Jenkinsfile&lt;br&gt;&lt;br&gt;Dependency Install&lt;br&gt;- pnpm, turbo&lt;br&gt;&lt;br&gt;Build&lt;br&gt;- pnpm build&lt;br&gt;&lt;br&gt;환경변수 설정&lt;br&gt;- SERVICE_NAME: cms, srm ...&lt;br&gt;- DEPLOY_ENV: live, qa, dev" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="540" y="225" width="200" height="235" as="geometry" />
+        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-9" value="Build 환경&lt;br&gt;- Linux (amd64) &lt;br&gt;- NodeJS 18.14.0&lt;br&gt;&lt;br&gt;Jenkinsfile&lt;br&gt;&lt;br&gt;Dependency Install&lt;br&gt;- pnpm, turbo&lt;br&gt;&lt;br&gt;Build&lt;br&gt;- pnpm build&lt;br&gt;&lt;br&gt;환경변수 설정&lt;br&gt;- SERVICE_NAME: cms, srm ...&lt;br&gt;- DEPLOY_ENV: live, qa, dev&lt;br&gt;&lt;br&gt;SSH를 통해 빌드 결과물 WAS로 이동" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" y="225" width="200" height="295" as="geometry" />
         </mxCell>
         <mxCell id="VZpOS-5xHHwN31Gzm8ZU-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.319;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="VZpOS-5xHHwN31Gzm8ZU-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="319" as="sourcePoint" />
             <mxPoint x="510" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -58,7 +58,7 @@
             <mxPoint x="360" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-17" value="Dependency Install&lt;br&gt;- pnpm&lt;br&gt;&lt;br&gt;Server Start (Port 3000)&lt;br&gt;- pnpm start" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="VZpOS-5xHHwN31Gzm8ZU-17" value="server start (Port 3000)&amp;nbsp;&lt;br&gt;- npm start:cms (PM2)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="120" y="340" width="200" height="95" as="geometry" />
         </mxCell>
       </root>
